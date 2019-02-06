@@ -24,7 +24,7 @@ Solo hay un programa que se ejecuta con este bit, es el kernel
 
 3) Interrupciones
 
-+ Es la forma en que el HW interactua con el CPU
+Es la forma en que el HW interactua con el CPU
 
 ## Que aprendi:
 
