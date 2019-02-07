@@ -16,15 +16,15 @@ La forma que el Kernel (sistema operativo) te da acceso al hardware
 
 Se implementa mediante interrupciones de software (trap), ie, la aplicacion se interrumpe para que el kernel se ejecute
 
-2)Mode kernel
+2) Modo kernel
 
-Es bit/registro que activael CPU para acceder al HW
+Es bit/registro que activa el CPU para acceder al hardware
 
 Solo hay un programa que se ejecuta con este bit, es el kernel
 
 3) Interrupciones
 
-Es la forma en que el HW interactua con el CPU
+Es la forma en que el hardware interactua con el CPU
 
 ## Que aprendi:
 
