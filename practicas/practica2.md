@@ -14,7 +14,7 @@ gcc
 
 ## Que aprendí:
 
-
+Aprendí como utilizar c para cambiar los caracteres que se colocan en la terminal, como darle cierto parametro y que ejecute un codigo, tambien sintaxis de C.
 
 ## Url del commit:
 
