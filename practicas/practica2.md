@@ -14,7 +14,8 @@ gcc
 
 ## Que aprendí:
 
-Aprendí como utilizar c para cambiar los caracteres que se colocan en la terminal, como darle cierto parametro y que ejecute un codigo, tambien sintaxis de C.
+Aprendí como utilizar c para cambiar los caracteres que se colocan en la terminal, como darle cierto parametro y que ejecute un codigo que realice una accion diferente dependiendo de lo insertado en la terminal, por ejemplo que se pudiera repetir la ultima accion ejecutada, tambien sintaxis de C.
 
 ## Url del commit:
 
+https://github.com/Angeljcc102/SO2019/commit/feab02c8f43ccdaeec17b5fa98bee2c384db189f
