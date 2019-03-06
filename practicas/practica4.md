@@ -28,10 +28,11 @@ gcc
 
 
 ## Que aprendí:
-
+En esta práctica aprendi como crear un planificador de procesos para hacer un scheduler, en donde se coloco dos nuevas funciones para ver la prioridad de los procesos que se estan corriendo.
+Aprendí que es un planificador de procesos, que es el scheduler, como crear funciones en el kernel, acceder a la tabla de los procesos para buscar nuestro proceso y ejecutarlo.
 
 ## Url del commit:
-
+https://github.com/Angeljcc102/SO2019/commit/5224d8f95b9ab46e114ca3118984eecf2f747e69
 
 ## Como se relaciona con los conceptos anteriores.
 LLamadas a sistema, procesos.
