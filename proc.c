@@ -188,8 +188,7 @@ fork(void)
   if((np = allocproc()) == 0){
     return -1;
   }
-
-  // Copy process state from proc.
+// Copy process state from proc.
   if((np->pgdir = copyuvm(curproc->pgdir, curproc->sz)) == 0){
     kfree(np->kstack);
     np->kstack = 0;
@@ -354,7 +353,6 @@ scheduler(void)
 
   }
 }
-
 // Enter scheduler.  Must hold only ptable.lock
 // and have changed proc->state. Saves and restores
 // intena because intena is a property of this
@@ -531,4 +529,33 @@ procdump(void)
     }
     cprintf("\n");
   }
+}
+int sys_setpriority(void){
+  int pid;
+  int prio;
+  int i;
+  
+  argint(0, &pid);
+  argint(1, &prio);
+  for(i=0;i < NPROC; i++){
+    if(ptable.proc[i].state == UNUSED) continue;
+    if(ptable.proc[i].pid == pid) break;
+  }
+  if(i == NPROC) return -1;
+  ptable.proc[i].prio = prio;
+  return 0;
+}
+
+int sys_getpriority(void){
+  int pid;
+  int i;
+  
+  argint(0, &pid);
+  for(i=0;i < NPROC; i++){
+    if(ptable.proc[i].state == UNUSED) continue;
+    if(ptable.proc[i].pid == pid) break;
+  }
+  if(i == NPROC) return -1;
+  cprintf("La prioridad de %d es %d",pid,ptable.proc[i].prio);
+  return 0;
 }
