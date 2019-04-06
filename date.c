@@ -1,11 +1,12 @@
 #include "types.h"
+#include "stat.h"
 #include "user.h"
 #include "date.h"
+
 int
-main(int argc, char *argv[])
+main(int argc, char *args[])
 {
-struct rtcdate r;
-	date(&r)
-	// Tu codigo para imprimir la fecha
+	struct rtcdate r;
+	date(&r);
 	exit();
 }
