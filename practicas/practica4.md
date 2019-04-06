@@ -33,6 +33,7 @@ Aprendí que es un planificador de procesos, que es el scheduler, como crear fun
 
 ## Url del commit:
 https://github.com/Angeljcc102/SO2019/commit/5224d8f95b9ab46e114ca3118984eecf2f747e69
+https://github.com/Angeljcc102/SO2019/commit/a023f1870e1a4467d97993f49df31c0bc13ebe60
 
 ## Como se relaciona con los conceptos anteriores.
 LLamadas a sistema, procesos.
