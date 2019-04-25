@@ -33,5 +33,7 @@ git
   ++ Productor / Consumidor : Ocurre cuando los datos se pueden sobreescribir.
 
 # Url del commit:
+https://github.com/Angeljcc102/SO2019/commit/6ea1c5d24e8af172fb86aca32edf3c9193de4d2d
 
 # Que aprendí
+Aprendí sobre como se utilizan los semáforos, que son los hilos, como hacer filosofos y que estos coman y descansen y ver este proceso de como utilizan los forks, como evitar que se hagan deadlocks.
